@@ -5104,6 +5104,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 119.38 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "234716c9-2ee4-4b3f-8d18-f63ec092b630")
 		)
@@ -5186,6 +5197,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 81.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 81.28 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5288,6 +5310,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 120.65 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59c64aa9-6cf3-4a69-a376-9e408bc407db")
 		)
@@ -5370,6 +5403,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 87.63 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 87.63 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5605,6 +5649,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1779"
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2cb8f5a1-dbd8-48ac-9763-5738957d5d7e")
 		)
@@ -5765,6 +5820,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 44.45 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1779"
 			(at 44.45 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -6084,6 +6150,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 130.81 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a56502d-8ddf-4561-b33f-f6a010535395")
 		)
@@ -6176,6 +6253,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 129.54 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9dc8e4c2-2fcb-408a-ba24-cce600dcf5df")
 		)
@@ -6258,6 +6346,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 91.44 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 91.44 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6572,6 +6671,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 63.5 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a4ff6d20-ab62-4b7d-a06f-881e5ae9b69b")
 		)
@@ -6644,6 +6754,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 27.94 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 27.94 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6957,6 +7078,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1779"
+			(at 36.83 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "47138d9a-03fd-4f99-ba4e-88a06411ea5c")
 		)
@@ -7039,6 +7171,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 92.71 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 92.71 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7210,6 +7353,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 38.1 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "67ce2b1a-9f3f-463f-ac57-c4acc20eb31d")
 		)
@@ -7292,6 +7446,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 81.28 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 81.28 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7462,6 +7627,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 66.04 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 66.04 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7764,6 +7940,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 85.09 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7c57b253-3710-405b-a27e-d1840d66b620")
 		)
@@ -8000,6 +8187,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1779"
+			(at 138.43 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "77c21867-4d4d-414e-9275-3cd5797e3f19")
 		)
@@ -8082,6 +8280,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 100.33 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 100.33 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8251,6 +8460,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 73.66 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "291d696d-274f-425c-a215-8521efff0957")
 		)
@@ -8343,6 +8563,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1779"
+			(at 54.61 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9e931047-6a77-4110-b6f5-8ff6bf26ba5f")
 		)
@@ -8425,6 +8656,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 82.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 82.55 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8595,6 +8837,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1588"
+			(at 60.96 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "823594d4-2530-471e-8d97-5da71fea993a")
 		)
@@ -8667,6 +8920,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 132.08 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 132.08 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8979,6 +9243,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1779"
+			(at 27.94 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "471f1d9d-e752-4bc4-bba8-050c7c9e03c0")
 		)
@@ -9061,6 +9336,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 62.23 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 62.23 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9163,6 +9449,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1779"
+			(at 45.72 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "132e3b1e-f30d-46bf-acc7-e86ef53b1902")
 		)
@@ -9235,6 +9532,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 68.58 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 68.58 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9337,6 +9645,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 72.39 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "579c1b24-34f3-4ffe-8075-5e317d2aabcf")
 		)
@@ -9429,6 +9748,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1779"
+			(at 26.67 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "994c0527-dc80-4e09-b3e3-9dc13dfc4ba4")
 		)
@@ -9501,6 +9831,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 68.58 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 68.58 127 0)
 			(hide yes)
 			(show_name no)
@@ -9758,6 +10099,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1779"
+			(at 35.56 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "44de6520-22a9-4f04-beec-55ddab0ab5b2")
 		)
@@ -9927,6 +10279,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 109.22 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ccd77109-dc42-4d60-9bee-73fc4d1c1037")
 		)
@@ -9998,6 +10361,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 58.42 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10090,6 +10464,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 110.49 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 110.49 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10470,6 +10855,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 80.01 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8d957d7e-64e2-4a38-bcd6-c4e69f44c28e")
 		)
@@ -10562,6 +10958,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 101.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4e9bcced-a53a-462d-84bb-d95ef96b8223")
 		)
@@ -10644,6 +11051,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 71.12 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 71.12 34.29 0)
 			(hide yes)
 			(show_name no)

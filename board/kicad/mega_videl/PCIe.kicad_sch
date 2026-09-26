@@ -4067,6 +4067,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 21.59 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b01fc17a-0f77-4dea-b87a-c5ce80476ce6")
 		)
@@ -4159,6 +4170,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 57.15 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7406fa0e-d1b8-4661-b9b3-f0471907114f")
 		)
@@ -4229,6 +4251,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 194.31 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 194.31 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4311,6 +4344,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22935"
 			(at 33.02 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4479,6 +4523,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C327316"
+			(at 29.21 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2b55a224-40eb-467d-b6cf-4a197aaa9772")
 		)
@@ -4549,6 +4604,17 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
+			(at 46.99 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C85840"
 			(at 46.99 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4808,6 +4874,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 31.75 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "05fe5a0f-9e1d-45f4-b5e7-5a7421e31087")
 		)
@@ -4878,6 +4955,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 29.21 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C327316"
 			(at 29.21 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4981,6 +5069,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1779"
+			(at 49.53 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a8fd59f8-3a10-46da-aaec-0407597d8196")
 		)
@@ -5074,6 +5173,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 26.67 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "97a70676-35d6-4e3d-b722-7a5f359176a1")
 		)
@@ -5144,6 +5254,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 130.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 130.81 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5226,6 +5347,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 107.95 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
 			(at 107.95 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5498,6 +5630,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 127 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fcff2d98-fd42-4898-bf95-9e68a800b212")
 		)
@@ -5657,6 +5800,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 191.77 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1ba7b9f5-1b92-4f25-81d7-2ead613e484d")
 		)
@@ -5740,6 +5894,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 36.83 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 36.83 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -6191,6 +6356,17 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 40.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5742221"
 			(at 40.64 74.93 0)
 			(hide yes)
 			(show_name no)

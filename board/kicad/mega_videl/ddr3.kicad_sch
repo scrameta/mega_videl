@@ -10844,6 +10844,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 152.4 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dd5b4358-8172-4114-b510-e28854a22943")
 		)
@@ -11081,6 +11092,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23162"
+			(at 182.88 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f8efffcb-cc01-4eda-a6a9-df1d6b07f765")
 		)
@@ -11238,6 +11260,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 201.93 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25087"
 			(at 201.93 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11562,7 +11595,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C20446380"
+		(property "LCSC Part" "C253882"
 			(at 67.31 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12092,6 +12125,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23350"
+			(at 153.67 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a32504c7-5818-411f-ae09-08476b2831ea")
 		)
@@ -12330,6 +12374,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23350"
+			(at 102.87 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e4045661-fa5a-4307-af25-01879168bb1b")
 		)
@@ -12410,6 +12465,17 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 219.71 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25087"
 			(at 219.71 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12657,7 +12723,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C20446380"
+		(property "LCSC Part" "C253882"
 			(at 135.89 101.6 0)
 			(hide yes)
 			(show_name no)

@@ -80,10 +80,6 @@
         [
           "annular_width|77660000|107280000|8ef2a4fc-82d1-40a5-8c21-1ef816556a64|00000000-0000-0000-0000-000000000000",
           "Within JLCPCB specs, special case for under this IC."
-        ],
-        [
-          "via_diameter|77660000|107280000|8ef2a4fc-82d1-40a5-8c21-1ef816556a64|00000000-0000-0000-0000-000000000000",
-          "Within JLCPCB specs, special case for under this IC."
         ]
       ],
       "meta": {
