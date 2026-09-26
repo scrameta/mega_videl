@@ -3509,12 +3509,6 @@
 		(uuid "f60c3198-f7fb-431e-8936-57c6969709fe")
 	)
 	(junction
-		(at 128.27 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7a2c99a-1aa7-4012-abdf-a4851e8de172")
-	)
-	(junction
 		(at 102.87 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5202,7 +5196,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 50.8) (xy 128.27 50.8)
+			(xy 124.46 50.8) (xy 133.35 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6159,6 +6153,16 @@
 			(type default)
 		)
 		(uuid "5cdfa9f0-27b3-44e7-89f4-963ac7c4488b")
+	)
+	(wire
+		(pts
+			(xy 146.05 46.99) (xy 146.05 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d447ccd-4c49-47f9-86d2-2fc158d98090")
 	)
 	(wire
 		(pts
@@ -7342,16 +7346,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 46.99) (xy 128.27 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad0a70bd-fab1-4dde-b9d6-e65885bc5876")
-	)
-	(wire
-		(pts
 			(xy 40.64 78.74) (xy 52.07 78.74)
 		)
 		(stroke
@@ -7389,16 +7383,6 @@
 			(type default)
 		)
 		(uuid "afe26e29-3546-481e-acf0-4688a7f8f85c")
-	)
-	(wire
-		(pts
-			(xy 128.27 50.8) (xy 133.35 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b005151a-8a90-43aa-8dd1-30ecd7fe1921")
 	)
 	(wire
 		(pts
@@ -7579,16 +7563,6 @@
 			(type default)
 		)
 		(uuid "bb18a42c-e26b-44ff-9a2c-7509aec018af")
-	)
-	(wire
-		(pts
-			(xy 148.59 46.99) (xy 128.27 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd14839a-0aff-4c10-af89-95b1edc04096")
 	)
 	(wire
 		(pts
@@ -8239,6 +8213,16 @@
 			(type default)
 		)
 		(uuid "e85c2aaf-65c0-4784-93cd-552ce01e6fe4")
+	)
+	(wire
+		(pts
+			(xy 148.59 46.99) (xy 146.05 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e940972b-1aab-4073-bbce-c5ba0e54ba12")
 	)
 	(wire
 		(pts
@@ -9089,16 +9073,6 @@
 			(justify right bottom)
 		)
 		(uuid "3acc7ba5-d761-43ce-a550-ca04ab5e59f7")
-	)
-	(label "unconnected-(RN3-Pad8)"
-		(at 191.77 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3b39c6dd-7548-4e20-ae30-6674b3a7ca89")
 	)
 	(label "DRAM.CAS_N"
 		(at 234.95 109.22 0)
@@ -10020,16 +9994,6 @@
 		)
 		(uuid "c58f7488-c72c-49a4-a51b-e91f578c2640")
 	)
-	(label "unconnected-(RN7-Pad1)"
-		(at 255.27 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ca6e9586-a1dc-4b83-8337-65c30174f65a")
-	)
 	(label "DRAM.A7"
 		(at 110.49 78.74 0)
 		(effects
@@ -10827,7 +10791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f488088-4a83-4d38-9b3f-b5bd0fd302bb")
-		(property "Reference" "R29"
+		(property "Reference" "R34"
 			(at 152.654 46.736 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10837,7 +10801,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "10k"
 			(at 152.654 49.276 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10889,7 +10853,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/9cd86b33-7f66-43be-a075-05e508a6c489"
-					(reference "R29")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -11062,7 +11026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c4665d6-89d4-40d6-8968-d27da8e79cf2")
-		(property "Reference" "R32"
+		(property "Reference" "R37"
 			(at 185.42 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11126,7 +11090,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/9cd86b33-7f66-43be-a075-05e508a6c489"
-					(reference "R32")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -11589,6 +11553,17 @@
 		)
 		(property "Description" "32M x 16-bit x 8 Banks (4-Gbit / 512 MB) DDR3L SDRAM, 1.35V nominal supply voltage, Rev. N, FBGA-96 (7.5x13.5mm)"
 			(at 67.31 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C20446380"
+			(at 67.31 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12062,7 +12037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af2c778e-fc9e-40fb-b241-e9d3e6c71cf0")
-		(property "Reference" "R30"
+		(property "Reference" "R35"
 			(at 156.21 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12126,7 +12101,85 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/9cd86b33-7f66-43be-a075-05e508a6c489"
-					(reference "R30")
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b582da85-50f3-4226-a4e1-11b3ec16a13f")
+		(property "Reference" "#PWR0122"
+			(at 146.05 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2df6712a-b162-4507-b7a4-fa74ca794886")
+		)
+		(instances
+			(project "mega_videl"
+				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/9cd86b33-7f66-43be-a075-05e508a6c489"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -12222,7 +12275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5d38677-b9cd-481f-ac2a-469088e3eeaf")
-		(property "Reference" "R31"
+		(property "Reference" "R36"
 			(at 105.41 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12286,7 +12339,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/9cd86b33-7f66-43be-a075-05e508a6c489"
-					(reference "R31")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -12595,6 +12648,17 @@
 		)
 		(property "Description" "32M x 16-bit x 8 Banks (4-Gbit / 512 MB) DDR3L SDRAM, 1.35V nominal supply voltage, Rev. N, FBGA-96 (7.5x13.5mm)"
 			(at 135.89 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C20446380"
+			(at 135.89 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

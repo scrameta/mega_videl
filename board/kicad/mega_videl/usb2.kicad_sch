@@ -1506,6 +1506,214 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "mega_videl:TPD4E6B06DPWR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPD4E6B06DPWR"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "mega_videl:X2SON-4_L0.8-W0.8-P0.48-TL-A"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2869397.pdf"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TI(德州仪器)"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TPD4E6B06DPWR"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C2869397"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPD4E6B06DPWR_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.08 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "IO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "IO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name "IO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mega_videl:TXV0108RGYR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2873,6 +3081,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Is DIR the right direction?\nH=A->B\nL=B->A\n\nUSB2.DIR=>PHY owns the bus -> GREAT!"
 		(exclude_from_sim no)
@@ -2925,10 +3248,22 @@
 		(uuid "10087a9c-f5b7-463e-97a9-726226b34f8d")
 	)
 	(junction
+		(at 224.79 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1044690a-b465-438f-ad46-f402d5a23f41")
+	)
+	(junction
 		(at 170.18 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17456f35-c773-4c4a-82bc-c0b2d6ffadfe")
+	)
+	(junction
+		(at 200.66 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cebe13a-c2eb-4e6b-9a2c-339cd07fe711")
 	)
 	(junction
 		(at 132.08 66.04)
@@ -2953,6 +3288,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3712b6a0-3095-4781-987a-062bfb2e6eb9")
+	)
+	(junction
+		(at 207.01 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3be2fbcf-2059-40ef-941a-8584fbee8ab0")
 	)
 	(junction
 		(at 152.4 99.06)
@@ -2991,6 +3332,18 @@
 		(uuid "4c619a8b-a9e7-4118-ac9c-d8940e5536a4")
 	)
 	(junction
+		(at 207.01 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ea76176-16bd-473e-a3bb-6eab5b41fabc")
+	)
+	(junction
+		(at 195.58 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4effd9df-6efc-484d-91f5-aa2291c28031")
+	)
+	(junction
 		(at 123.19 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3007,6 +3360,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59c5d3b6-f67f-4cb6-8463-808fd2e584ef")
+	)
+	(junction
+		(at 207.01 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6034666a-1127-45c7-b1f4-8fb0098ce9b1")
 	)
 	(junction
 		(at 123.19 66.04)
@@ -3073,6 +3432,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84339963-e516-4ba3-9e53-1fbe832f8f53")
+	)
+	(junction
+		(at 207.01 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b81b8ce-b9ac-46e1-804d-bb5624dcc04a")
 	)
 	(junction
 		(at 44.45 41.91)
@@ -3445,6 +3810,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 100.33) (xy 228.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00084935-bf6c-4883-856f-cb7de4ca6603")
+	)
+	(wire
+		(pts
 			(xy 72.39 128.27) (xy 72.39 115.57)
 		)
 		(stroke
@@ -3555,6 +3930,26 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 102.87) (xy 223.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c26e026-4846-4b5f-b383-8c5ed77c27b4")
+	)
+	(wire
+		(pts
+			(xy 168.91 53.34) (xy 168.91 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb82642-7b51-4d76-82ab-f29dd495a3a3")
+	)
+	(wire
+		(pts
 			(xy 72.39 128.27) (xy 60.96 128.27)
 		)
 		(stroke
@@ -3595,7 +3990,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 120.65) (xy 224.79 128.27)
+			(xy 224.79 120.65) (xy 224.79 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3725,7 +4120,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 95.25) (xy 198.12 95.25)
+			(xy 171.45 95.25) (xy 195.58 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3742,6 +4137,26 @@
 			(type default)
 		)
 		(uuid "256cf953-035f-46ee-bb96-a1beef7e0d1a")
+	)
+	(wire
+		(pts
+			(xy 200.66 62.23) (xy 200.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a64956-d680-4865-b59f-dfb25654eb78")
+	)
+	(wire
+		(pts
+			(xy 195.58 95.25) (xy 198.12 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26fe2a79-8a96-4246-af67-19c06bedba05")
 	)
 	(wire
 		(pts
@@ -3772,6 +4187,16 @@
 			(type default)
 		)
 		(uuid "2bfae13e-f77a-45fd-b826-005e4aed798f")
+	)
+	(wire
+		(pts
+			(xy 217.17 115.57) (xy 217.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d403d1f-fa07-494f-ac3b-d64974ff652c")
 	)
 	(wire
 		(pts
@@ -3825,6 +4250,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 115.57) (xy 217.17 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a61bb3-daf8-4561-b69a-6e55d87cdbc6")
+	)
+	(wire
+		(pts
 			(xy 123.19 66.04) (xy 123.19 69.85)
 		)
 		(stroke
@@ -3845,6 +4280,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 52.07) (xy 200.66 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37cc526a-12bb-4ae6-a709-3d21535d68ac")
+	)
+	(wire
+		(pts
 			(xy 207.01 92.71) (xy 180.34 92.71)
 		)
 		(stroke
@@ -3852,16 +4297,6 @@
 			(type default)
 		)
 		(uuid "385e210a-d4bb-4254-adf9-9c64783b0422")
-	)
-	(wire
-		(pts
-			(xy 168.91 63.5) (xy 168.91 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38d89f2b-6bd2-4e7c-a21b-5eb9d1159eca")
 	)
 	(wire
 		(pts
@@ -3962,6 +4397,16 @@
 			(type default)
 		)
 		(uuid "426e27b0-c706-40cb-8d40-99db9de59482")
+	)
+	(wire
+		(pts
+			(xy 195.58 90.17) (xy 195.58 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437eb521-441b-4a34-a2eb-4ce73615cbcd")
 	)
 	(wire
 		(pts
@@ -4215,6 +4660,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 104.14) (xy 251.46 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d6b317e-3532-433a-be18-37e5f0f942c9")
+	)
+	(wire
+		(pts
 			(xy 95.25 127) (xy 95.25 128.27)
 		)
 		(stroke
@@ -4405,6 +4860,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 102.87) (xy 223.52 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d72b33-1daf-4555-849c-a6ee63bbbd3d")
+	)
+	(wire
+		(pts
 			(xy 53.34 189.23) (xy 53.34 186.69)
 		)
 		(stroke
@@ -4545,6 +5010,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 109.22) (xy 228.6 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb78c6a-b827-4bef-8db2-4cbc0c523991")
+	)
+	(wire
+		(pts
 			(xy 203.2 149.86) (xy 194.31 149.86)
 		)
 		(stroke
@@ -4552,6 +5027,16 @@
 			(type default)
 		)
 		(uuid "7f4f8264-ea9c-4afd-bedc-4e0a4792a51c")
+	)
+	(wire
+		(pts
+			(xy 200.66 68.58) (xy 198.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "815f7869-3594-4d50-be33-b397a84b2d15")
 	)
 	(wire
 		(pts
@@ -4672,6 +5157,16 @@
 			(type default)
 		)
 		(uuid "8a97b34f-64c3-410f-83ac-83924914fa65")
+	)
+	(wire
+		(pts
+			(xy 251.46 124.46) (xy 251.46 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd25746-923b-4bbe-9c43-1b40eb4005da")
 	)
 	(wire
 		(pts
@@ -4815,7 +5310,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 105.41) (xy 200.66 105.41)
+			(xy 200.66 105.41) (xy 207.01 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4902,6 +5397,16 @@
 			(type default)
 		)
 		(uuid "a1abed6f-8e44-47ea-aa4f-cf0c2755ea33")
+	)
+	(wire
+		(pts
+			(xy 224.79 124.46) (xy 251.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d66dbb-395d-455d-96c8-ae61350ee0f9")
 	)
 	(bus
 		(pts
@@ -5085,6 +5590,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 124.46) (xy 224.79 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b861cc24-5065-421b-b66a-a7d4a4d7421f")
+	)
+	(wire
+		(pts
 			(xy 184.15 72.39) (xy 207.01 72.39)
 		)
 		(stroke
@@ -5125,7 +5640,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 100.33) (xy 204.47 100.33)
+			(xy 204.47 100.33) (xy 207.01 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5215,7 +5730,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 115.57) (xy 203.2 115.57)
+			(xy 203.2 115.57) (xy 207.01 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5373,6 +5888,16 @@
 		)
 		(uuid "d2c5a77b-45d1-4c99-af17-837b4bc2ca33")
 	)
+	(wire
+		(pts
+			(xy 223.52 105.41) (xy 223.52 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3db4a26-0bbc-49b4-8534-3c96e1d8b06c")
+	)
 	(bus
 		(pts
 			(xy 107.95 72.39) (xy 78.74 72.39)
@@ -5425,6 +5950,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 104.14) (xy 228.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df35fdc3-8508-417e-b2e8-9954fb721ae9")
+	)
+	(wire
+		(pts
 			(xy 198.12 118.11) (xy 198.12 95.25)
 		)
 		(stroke
@@ -5442,6 +5977,16 @@
 			(type default)
 		)
 		(uuid "e10c970a-f303-4555-9f78-f069723a77e2")
+	)
+	(wire
+		(pts
+			(xy 207.01 100.33) (xy 228.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f104dd-be11-42fb-83ee-bbf90602dbfe")
 	)
 	(wire
 		(pts
@@ -5523,6 +6068,16 @@
 		)
 		(uuid "e85f5afd-a32d-481a-9803-6a1fdaf40dc4")
 	)
+	(wire
+		(pts
+			(xy 223.52 106.68) (xy 228.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f7c3e3-2574-48ae-a272-d7180cf11ee7")
+	)
 	(bus
 		(pts
 			(xy 35.56 62.23) (xy 35.56 64.77)
@@ -5545,7 +6100,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 68.58) (xy 198.12 68.58)
+			(xy 201.93 68.58) (xy 200.66 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5592,6 +6147,16 @@
 			(type default)
 		)
 		(uuid "ef5a9a04-9093-4868-a001-63f07d805dfa")
+	)
+	(wire
+		(pts
+			(xy 207.01 105.41) (xy 223.52 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7f6504-da49-4ba2-821e-3799bd8d9498")
 	)
 	(wire
 		(pts
@@ -6347,7 +6912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08439a87-6d03-4c06-8516-fdb5effb4948")
-		(property "Reference" "C97"
+		(property "Reference" "C106"
 			(at 66.04 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6411,7 +6976,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/4308f970-ce3e-4b29-90b9-8b72e32b0b6e"
-					(reference "C97")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -6429,7 +6994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a92dc6d-d145-4430-8d86-38cc256a5aa3")
-		(property "Reference" "R26"
+		(property "Reference" "R31"
 			(at 205.74 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6493,7 +7058,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/4308f970-ce3e-4b29-90b9-8b72e32b0b6e"
-					(reference "R26")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -6658,6 +7223,84 @@
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/4308f970-ce3e-4b29-90b9-8b72e32b0b6e"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 195.58 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23d5649c-50cb-4951-89d8-32f609a89f6f")
+		(property "Reference" "#FLG013"
+			(at 195.58 88.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 195.58 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 195.58 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c30c231-d2aa-44ea-8902-cde0baf7c9c0")
+		)
+		(instances
+			(project "mega_videl"
+				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/4308f970-ce3e-4b29-90b9-8b72e32b0b6e"
+					(reference "#FLG013")
 					(unit 1)
 				)
 			)
@@ -6850,7 +7493,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "10uF"
 			(at 175.26 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6861,7 +7504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 172.4152 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6884,6 +7527,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 171.45 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 171.45 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7237,7 +7891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59e64ce8-a151-4e89-b837-d078a58e182c")
-		(property "Reference" "C104"
+		(property "Reference" "C113"
 			(at 64.77 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7301,7 +7955,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/4308f970-ce3e-4b29-90b9-8b72e32b0b6e"
-					(reference "C104")
+					(reference "C113")
 					(unit 1)
 				)
 			)
@@ -7797,7 +8451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f832887-ac87-4610-b985-9c44c51b772b")
-		(property "Reference" "C105"
+		(property "Reference" "C114"
 			(at 76.2 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7861,7 +8515,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/4308f970-ce3e-4b29-90b9-8b72e32b0b6e"
-					(reference "C105")
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -8194,7 +8848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a11705d0-e825-4023-b78d-56a5c82d5d0c")
-		(property "Reference" "U12"
+		(property "Reference" "U13"
 			(at 184.15 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8313,6 +8967,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C441827"
+			(at 184.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ad341c1e-411c-4ca4-96ce-549894c33c36")
 		)
@@ -8334,7 +8999,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/4308f970-ce3e-4b29-90b9-8b72e32b0b6e"
-					(reference "U12")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -8352,7 +9017,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7cac68c-c962-4bac-a643-473ae98dfbd8")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 63.5 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8516,7 +9181,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/4308f970-ce3e-4b29-90b9-8b72e32b0b6e"
-					(reference "U10")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -8612,7 +9277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b126043f-f39e-4a16-9409-65581aab85b4")
-		(property "Reference" "U11"
+		(property "Reference" "U12"
 			(at 118.5067 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8769,7 +9434,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/4308f970-ce3e-4b29-90b9-8b72e32b0b6e"
-					(reference "U11")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -9262,7 +9927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdf1e0f3-4ab1-4007-9c75-51f3aeb53b4b")
-		(property "Reference" "R25"
+		(property "Reference" "R30"
 			(at 196.85 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9326,7 +9991,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/4308f970-ce3e-4b29-90b9-8b72e32b0b6e"
-					(reference "R25")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -9355,7 +10020,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1m"
+		(property "Value" "1M"
 			(at 160.02 97.028 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9657,6 +10322,128 @@
 		)
 	)
 	(symbol
+		(lib_id "mega_videl:TPD4E6B06DPWR")
+		(at 237.49 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec03378e-72ae-4e60-a25e-d266ababd007")
+		(property "Reference" "D3"
+			(at 237.49 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPD4E6B06DPWR"
+			(at 237.49 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mega_videl:X2SON-4_L0.8-W0.8-P0.48-TL-A"
+			(at 237.49 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2869397.pdf"
+			(at 237.49 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 237.49 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPD4E6B06DPWR"
+			(at 237.49 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2869397"
+			(at 237.49 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d30b9c73-5972-453b-9c4c-487891b22c37")
+		)
+		(pin "3"
+			(uuid "4a341d29-f298-42b1-80b1-ddf6d40454c2")
+		)
+		(pin "1"
+			(uuid "29673440-07af-4abb-90b7-b5597f6233b2")
+		)
+		(pin "5"
+			(uuid "19a2ed50-458f-4fde-8c3e-5fe93b4a9be5")
+		)
+		(pin "4"
+			(uuid "bfb4297a-e2ad-4dcb-b38d-6591ba9dc36f")
+		)
+		(instances
+			(project "mega_videl"
+				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/4308f970-ce3e-4b29-90b9-8b72e32b0b6e"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 121.92 193.04 0)
 		(unit 1)
@@ -9729,6 +10516,98 @@
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/4308f970-ce3e-4b29-90b9-8b72e32b0b6e"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 200.66 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "efe385db-830b-4808-9c34-76f828ae17e8")
+		(property "Reference" "R49"
+			(at 202.692 58.928 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 200.66 60.198 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 198.882 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 200.66 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4e1a109-1ef0-4f46-bf79-3b13938bd673")
+		)
+		(pin "2"
+			(uuid "9cb5029e-8d2d-41b2-b0b4-1b5e87db36bb")
+		)
+		(instances
+			(project "mega_videl"
+				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/4308f970-ce3e-4b29-90b9-8b72e32b0b6e"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -9809,6 +10688,84 @@
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/4308f970-ce3e-4b29-90b9-8b72e32b0b6e"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 200.66 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff04933e-3f5e-410c-a2ff-2791adf8acb8")
+		(property "Reference" "#PWR0123"
+			(at 200.66 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 200.66 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 200.66 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b88f3700-7800-4169-8748-cab4ee26693c")
+		)
+		(instances
+			(project "mega_videl"
+				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/4308f970-ce3e-4b29-90b9-8b72e32b0b6e"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)

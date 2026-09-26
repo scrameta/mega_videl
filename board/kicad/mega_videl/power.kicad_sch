@@ -1517,6 +1517,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "reg25ldo:TPS7A2025PDBVR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1781,6 +1896,12 @@
 		(uuid "0c448b63-2e1d-42b1-8f7e-d988369399c7")
 	)
 	(junction
+		(at 57.15 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21b3a337-8ea6-434e-9ff9-028fdac5ef5f")
+	)
+	(junction
 		(at 161.29 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1877,6 +1998,12 @@
 		(uuid "7f17a0c7-98a4-4eb4-9ae7-f822a1bf0f1f")
 	)
 	(junction
+		(at 135.89 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86826eaa-88e5-4d09-80b3-bd2aed6c00a3")
+	)
+	(junction
 		(at 142.24 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1905,6 +2032,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9a05e45-d933-45e7-a125-56f6e43d10b2")
+	)
+	(junction
+		(at 57.15 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af18a2e7-cfbb-4255-8ba6-94ab919a2280")
 	)
 	(junction
 		(at 138.43 115.57)
@@ -2212,6 +2345,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 106.68) (xy 57.15 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b77bcf-060c-4ddc-b0ef-77e7c0e6c364")
+	)
+	(wire
+		(pts
 			(xy 93.98 67.31) (xy 102.87 67.31)
 		)
 		(stroke
@@ -2239,6 +2382,16 @@
 			(type default)
 		)
 		(uuid "364ae2b7-dd1f-4a39-bcde-eee840b5df4d")
+	)
+	(wire
+		(pts
+			(xy 135.89 33.02) (xy 140.97 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388fb7dc-5997-4b06-804e-3ac9a47843f4")
 	)
 	(wire
 		(pts
@@ -2282,7 +2435,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 33.02) (xy 140.97 33.02)
+			(xy 132.08 33.02) (xy 135.89 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2652,7 +2805,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 109.22) (xy 62.23 109.22)
+			(xy 48.26 109.22) (xy 57.15 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2702,6 +2855,26 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 109.22) (xy 62.23 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34e71ce-89d2-471a-8700-64501e17ea71")
+	)
+	(wire
+		(pts
+			(xy 135.89 29.21) (xy 135.89 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a846d2-9cb9-4e56-b1dc-94e952448b9c")
+	)
+	(wire
+		(pts
 			(xy 80.01 127) (xy 46.99 127)
 		)
 		(stroke
@@ -2709,6 +2882,26 @@
 			(type default)
 		)
 		(uuid "b5996960-cb84-4a06-951f-c0b2702e79c7")
+	)
+	(wire
+		(pts
+			(xy 57.15 67.31) (xy 64.77 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9be9011-9b0f-413c-ab88-0d8174491068")
+	)
+	(wire
+		(pts
+			(xy 57.15 66.04) (xy 57.15 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c086ea-f00e-4151-a70f-be75e945058f")
 	)
 	(wire
 		(pts
@@ -2892,7 +3085,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 67.31) (xy 64.77 67.31)
+			(xy 48.26 67.31) (xy 57.15 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3284,7 +3477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d12d8fa-e965-4fb6-84b7-9bd66b583e81")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 83.82 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3348,7 +3541,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/c102b8ce-3a1a-431b-883e-fed6ab86edf4"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -3525,7 +3718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35ec6074-810f-4da6-a357-ce9bdcae12aa")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 123.19 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3629,7 +3822,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/c102b8ce-3a1a-431b-883e-fed6ab86edf4"
-					(reference "U5")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4214,7 +4407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a72b371-384c-45b5-bb83-186e1226fe00")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 119.38 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4341,7 +4534,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/c102b8ce-3a1a-431b-883e-fed6ab86edf4"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -4424,6 +4617,84 @@
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/c102b8ce-3a1a-431b-883e-fed6ab86edf4"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 135.89 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fa0f77e-f24b-45f9-aafc-520c9345b46e")
+		(property "Reference" "#FLG09"
+			(at 135.89 27.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 135.89 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 135.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "377896c9-1a3f-4cf2-b140-58a94d1ab926")
+		)
+		(instances
+			(project "mega_videl"
+				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/c102b8ce-3a1a-431b-883e-fed6ab86edf4"
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -4585,6 +4856,84 @@
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/c102b8ce-3a1a-431b-883e-fed6ab86edf4"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 57.15 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dd229a8-9bb3-404a-9c37-e54093129ed4")
+		(property "Reference" "#FLG010"
+			(at 57.15 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 57.15 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 57.15 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96e297cb-c372-4480-af4e-2a65d99fe9ec")
+		)
+		(instances
+			(project "mega_videl"
+				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/c102b8ce-3a1a-431b-883e-fed6ab86edf4"
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)
@@ -4970,6 +5319,84 @@
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/c102b8ce-3a1a-431b-883e-fed6ab86edf4"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 57.15 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e454389-c3f6-4ea5-ba43-ca1e0930fa83")
+		(property "Reference" "#FLG011"
+			(at 57.15 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 57.15 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 57.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c9561ff-394e-4abd-8677-13ee01912bb4")
+		)
+		(instances
+			(project "mega_videl"
+				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/c102b8ce-3a1a-431b-883e-fed6ab86edf4"
+					(reference "#FLG011")
 					(unit 1)
 				)
 			)

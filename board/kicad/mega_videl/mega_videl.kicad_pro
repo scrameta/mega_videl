@@ -62,7 +62,7 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.22,
+          "min_thickness": 0.12,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.22,
@@ -76,7 +76,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|77660000|107280000|8ef2a4fc-82d1-40a5-8c21-1ef816556a64|00000000-0000-0000-0000-000000000000",
+          "Within JLCPCB specs, special case for under this IC."
+        ],
+        [
+          "via_diameter|77660000|107280000|8ef2a4fc-82d1-40a5-8c21-1ef816556a64|00000000-0000-0000-0000-000000000000",
+          "Within JLCPCB specs, special case for under this IC."
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -727,7 +736,7 @@
       },
       {
         "netclass": "DDR3DIFF",
-        "pattern": ".*HDMI.TX.*"
+        "pattern": ".*HDMI.*(P|N)"
       },
       {
         "netclass": "Default",
@@ -748,6 +757,22 @@
       {
         "netclass": "Power_1",
         "pattern": "/usb2/+1VA8"
+      },
+      {
+        "netclass": "Power_1",
+        "pattern": "/video/HDMIPV"
+      },
+      {
+        "netclass": "Power_1",
+        "pattern": "/video/HDMIOV"
+      },
+      {
+        "netclass": "DDR3DIFF",
+        "pattern": ".*LINK.*"
+      },
+      {
+        "netclass": "DDR3DIFF",
+        "pattern": ".*AC\\..*"
       }
     ]
   },
@@ -951,7 +976,7 @@
         "uuid": "10511203-7d65-4cdf-a1a4-c07b44ea87e2"
       }
     ],
-    "used_designators": "USB1,FB4-5,FB7-10,RN4-7,#PWR18-20,#PWR35,#PWR43-44,#PWR46-48,#PWR51-53,#PWR78,#PWR105-110,#PWR112-115,C4,C26,C38-40,C42-43,C45-48,C50-51,C53-54,C56,C58-59,C97-112,C115-123,C126-134,#FLG2-3,#FLG7,R2-3,R21-22,R29-31,R33,U7,USBC3,J2,J4,RJ2,L3,FPC1",
+    "used_designators": "USB1,FB4-5,FB7-10,RN4-7,#PWR18-20,#PWR35-36,#PWR43-44,#PWR46-48,#PWR51-53,#PWR78-79,#PWR105-110,#PWR112-124,#PWR126,C4,C26,C38-40,C42-43,C45-48,C50-51,C53-54,C56,C58-59,C80,C95-112,C115-137,#FLG2-3,#FLG7,#FLG9-14,R2-3,R21-22,R29-31,R33,R48-57,U7,U23-24,USBC3,J2-4,RJ2,L3,FPC1,D1-3,F1",
     "variants": []
   },
   "sheets": [

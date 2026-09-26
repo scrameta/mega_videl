@@ -1980,12 +1980,6 @@
 		(uuid "2364d6ba-f38a-4e5e-9049-a8e2a578eb1c")
 	)
 	(junction
-		(at 80.01 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2569b274-3ecd-4d17-a68c-7f7049bba61a")
-	)
-	(junction
 		(at 59.69 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2068,12 +2062,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44ef88e1-0e2a-481b-88e2-f6db2ad1e107")
-	)
-	(junction
-		(at 113.03 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "465e470f-d476-4477-9a0a-a41174267550")
 	)
 	(junction
 		(at 66.04 152.4)
@@ -2400,6 +2388,12 @@
 		(uuid "c2146ef2-06cc-4a85-8317-59743d4a72b6")
 	)
 	(junction
+		(at 68.58 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c22e4d12-d280-4d06-8e08-9ba9851f796c")
+	)
+	(junction
 		(at 214.63 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2476,6 +2470,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d733268d-8f5c-4f4b-8f9a-ae9c0abdf31d")
+	)
+	(junction
+		(at 80.01 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d76ecd90-1d72-4f6b-8d19-18506fc20a0c")
 	)
 	(junction
 		(at 96.52 142.24)
@@ -2936,16 +2936,6 @@
 			(type default)
 		)
 		(uuid "2b8d1ba9-f25f-4dcd-be84-e7d1478b78e8")
-	)
-	(wire
-		(pts
-			(xy 80.01 109.22) (xy 80.01 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bf7fb02-59ed-4a1a-9595-4f41039f78c2")
 	)
 	(wire
 		(pts
@@ -3496,6 +3486,16 @@
 			(type default)
 		)
 		(uuid "61a401cd-bac6-494f-a396-f0a0f14409c3")
+	)
+	(wire
+		(pts
+			(xy 68.58 123.19) (xy 80.01 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61de6a31-9c73-4786-b06e-ceeac3720e10")
 	)
 	(wire
 		(pts
@@ -4639,16 +4639,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 109.22) (xy 113.03 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6093379-a8d0-4e0c-ac91-af0ec01c8178")
-	)
-	(wire
-		(pts
 			(xy 113.03 142.24) (xy 132.08 142.24)
 		)
 		(stroke
@@ -5048,7 +5038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00c8f14c-9dad-4e09-84c4-2f59cead513b")
-		(property "Reference" "C68"
+		(property "Reference" "C67"
 			(at 117.348 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5123,7 +5113,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C68")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -5232,7 +5222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05697a55-a222-4b51-8ee4-c15e868613bf")
-		(property "Reference" "C67"
+		(property "Reference" "C66"
 			(at 120.396 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5307,7 +5297,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C67")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -5549,7 +5539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d0f425b-3cef-4ac1-a27e-c3e97f12e89e")
-		(property "Reference" "C55"
+		(property "Reference" "C54"
 			(at 51.308 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5624,7 +5614,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C55")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -5719,7 +5709,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "184465c1-9912-4e90-9e77-38c256e1a701")
-		(property "Reference" "C54"
+		(property "Reference" "C53"
 			(at 42.418 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5794,7 +5784,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C54")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -6028,7 +6018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29c08b21-095d-4e24-9619-ec1be89e4fb2")
-		(property "Reference" "C72"
+		(property "Reference" "C71"
 			(at 130.556 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6103,7 +6093,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C72")
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -6120,7 +6110,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2bfca647-6ab2-452e-bdf9-e17b12d8576e")
-		(property "Reference" "C66"
+		(property "Reference" "C65"
 			(at 127.508 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6195,7 +6185,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C66")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -6212,7 +6202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32837949-2abb-443c-af66-21e183b263ef")
-		(property "Reference" "C73"
+		(property "Reference" "C72"
 			(at 89.408 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6287,7 +6277,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C73")
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -6516,7 +6506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38690069-0714-4a15-8d52-c697ab4822a7")
-		(property "Reference" "C59"
+		(property "Reference" "C58"
 			(at 63.246 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6591,7 +6581,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C59")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -6609,7 +6599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a0b441c-424b-4007-a4a0-68ee96d6567a")
-		(property "Reference" "C61"
+		(property "Reference" "C60"
 			(at 31.75 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6673,7 +6663,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C61")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -6901,7 +6891,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4269dc2b-db46-4ec4-b2b8-0a2ee9972ffb")
-		(property "Reference" "C77"
+		(property "Reference" "C76"
 			(at 36.576 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6976,7 +6966,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C77")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -6993,7 +6983,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44115426-e488-45da-9c98-5d78cc033c1b")
-		(property "Reference" "C65"
+		(property "Reference" "C64"
 			(at 92.456 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7068,7 +7058,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C65")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -7163,7 +7153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b950f4f-4993-43e6-be47-2ccff83a4e1c")
-		(property "Reference" "C62"
+		(property "Reference" "C61"
 			(at 41.91 110.4899 0)
 			(hide yes)
 			(show_name no)
@@ -7229,7 +7219,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C62")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -7246,7 +7236,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e2e3407-3bf6-4f5e-a0cf-8be7f1d2cb11")
-		(property "Reference" "C69"
+		(property "Reference" "C68"
 			(at 79.248 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7321,7 +7311,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C69")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -8036,7 +8026,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c8ce27d-0a20-4783-b3ea-0df340e4518d")
-		(property "Reference" "C64"
+		(property "Reference" "C63"
 			(at 98.298 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8111,7 +8101,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C64")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -8287,7 +8277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "845f668d-1952-4e88-b9bc-5b5537e97c3b")
-		(property "Reference" "C53"
+		(property "Reference" "C52"
 			(at 54.356 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8362,7 +8352,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C53")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -8379,7 +8369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "870c3f65-50fb-443f-b808-5572c7f88fdd")
-		(property "Reference" "C57"
+		(property "Reference" "C56"
 			(at 82.296 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8454,7 +8444,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C57")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -8923,7 +8913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0fd3fae-99f7-4fb7-a8ec-fcde2d0e18e3")
-		(property "Reference" "C52"
+		(property "Reference" "C51"
 			(at 27.686 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8998,7 +8988,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C52")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -9015,7 +9005,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a116e65c-ba0e-487b-b4c4-e126b96df0bb")
-		(property "Reference" "C56"
+		(property "Reference" "C55"
 			(at 60.198 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9090,7 +9080,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C56")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -9107,7 +9097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a517e539-d272-4773-887f-3057d04a388b")
-		(property "Reference" "C76"
+		(property "Reference" "C75"
 			(at 45.466 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9182,7 +9172,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C76")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -9281,7 +9271,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b293dd5f-6189-47fe-b0a6-e92e2c4d7aac")
-		(property "Reference" "C71"
+		(property "Reference" "C70"
 			(at 72.136 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9356,7 +9346,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C71")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -9373,7 +9363,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9a29c48-8682-4978-9a04-831591527433")
-		(property "Reference" "C74"
+		(property "Reference" "C73"
 			(at 24.638 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9448,7 +9438,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C74")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -9702,7 +9692,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2eb517f-90bd-4e23-80de-ad0314afd6d7")
-		(property "Reference" "C75"
+		(property "Reference" "C74"
 			(at 33.528 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9777,7 +9767,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C75")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -9871,7 +9861,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc20432a-9be6-4e12-9866-a193a8591b48")
-		(property "Reference" "C58"
+		(property "Reference" "C57"
 			(at 107.188 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9946,7 +9936,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C58")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -10044,7 +10034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ecdc1f22-c553-4c87-aa24-61b62fb2605f")
-		(property "Reference" "C63"
+		(property "Reference" "C62"
 			(at 110.236 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10119,7 +10109,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C63")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -10506,7 +10496,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fece9aae-0a9d-4b71-bdaa-e91e42d1aea9")
-		(property "Reference" "C60"
+		(property "Reference" "C59"
 			(at 101.346 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10581,7 +10571,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C60")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -10598,7 +10588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff019494-07ab-49ec-a974-bc51ad1e43e0")
-		(property "Reference" "C70"
+		(property "Reference" "C69"
 			(at 69.088 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10673,7 +10663,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/cdbe408a-30b2-43ec-8cff-a9bfdb2a9228"
-					(reference "C70")
+					(reference "C69")
 					(unit 1)
 				)
 			)
