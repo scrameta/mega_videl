@@ -51,7 +51,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_820110c5",
+    "visible_layers": "00000000_00000000_00000000_a20190c5",
     "zone_display_mode": 0
   },
   "git": {
@@ -145,16 +145,16 @@
   "schematic": {
     "hierarchy_collapsed": [],
     "selection_filter": {
-      "graphics": true,
-      "images": true,
-      "labels": true,
+      "graphics": false,
+      "images": false,
+      "labels": false,
       "lockedItems": false,
-      "otherItems": true,
-      "pins": true,
-      "ruleAreas": true,
+      "otherItems": false,
+      "pins": false,
+      "ruleAreas": false,
       "symbols": true,
-      "text": true,
-      "wires": true
+      "text": false,
+      "wires": false
     }
   }
 }

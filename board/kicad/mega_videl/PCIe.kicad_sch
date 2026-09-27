@@ -4299,7 +4299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fbc6c52-ba5f-4226-8826-7789d9a92cd0")
-		(property "Reference" "R22"
+		(property "Reference" "R39"
 			(at 26.67 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4374,7 +4374,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/2e9ae4b7-1d52-4a57-bd5b-5fd3b8f07f63"
-					(reference "R22")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -5302,7 +5302,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "991235c4-ad53-4cad-96a0-3a316e792f74")
-		(property "Reference" "R25"
+		(property "Reference" "R44"
 			(at 110.49 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5377,7 +5377,7 @@
 		(instances
 			(project "mega_videl"
 				(path "/10511203-7d65-4cdf-a1a4-c07b44ea87e2/2e9ae4b7-1d52-4a57-bd5b-5fd3b8f07f63"
-					(reference "R25")
+					(reference "R44")
 					(unit 1)
 				)
 			)
