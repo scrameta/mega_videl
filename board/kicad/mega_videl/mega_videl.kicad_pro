@@ -80,14 +80,6 @@
         [
           "annular_width|77660000|107280000|8ef2a4fc-82d1-40a5-8c21-1ef816556a64|00000000-0000-0000-0000-000000000000",
           "Within JLCPCB specs, special case for under this IC."
-        ],
-        [
-          "clearance|77895080|107044957|73d684cf-ba3f-4c46-bb11-e69d23d75bf6|8ef2a4fc-82d1-40a5-8c21-1ef816556a64",
-          "Small IC, within manufacturer rules"
-        ],
-        [
-          "via_diameter|77660000|107280000|8ef2a4fc-82d1-40a5-8c21-1ef816556a64|00000000-0000-0000-0000-000000000000",
-          "Tiny IC, should be within JLCPCB specs"
         ]
       ],
       "meta": {
@@ -161,7 +153,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.127,
         "min_hole_to_hole": 0.254,

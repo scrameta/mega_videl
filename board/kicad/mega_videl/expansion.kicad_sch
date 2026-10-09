@@ -10027,10 +10027,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce866")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d39")
 		)
 		(instances
 			(project "mega_videl"
@@ -10130,10 +10130,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce867")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d3a")
 		)
 		(instances
 			(project "mega_videl"
@@ -11472,10 +11472,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce868")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d3b")
 		)
 		(instances
 			(project "mega_videl"
@@ -11665,7 +11665,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3975152"
+		(property "LCSC" "C7366128"
 			(at 241.3 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11816,10 +11816,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce869")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d3c")
 		)
 		(instances
 			(project "mega_videl"
@@ -12898,10 +12898,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce86a")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d3d")
 		)
 		(instances
 			(project "mega_videl"
@@ -13619,10 +13619,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce86b")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d3e")
 		)
 		(instances
 			(project "mega_videl"
@@ -14315,10 +14315,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce86c")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d3f")
 		)
 		(instances
 			(project "mega_videl"
@@ -14961,10 +14961,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce86d")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d40")
 		)
 		(instances
 			(project "mega_videl"
@@ -15348,10 +15348,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce86e")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d41")
 		)
 		(instances
 			(project "mega_videl"
@@ -15451,10 +15451,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce86f")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d42")
 		)
 		(instances
 			(project "mega_videl"
@@ -16275,10 +16275,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce870")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d43")
 		)
 		(instances
 			(project "mega_videl"
@@ -16883,10 +16883,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce871")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d44")
 		)
 		(instances
 			(project "mega_videl"
@@ -17089,10 +17089,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce872")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d45")
 		)
 		(instances
 			(project "mega_videl"
@@ -17295,10 +17295,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce873")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d46")
 		)
 		(instances
 			(project "mega_videl"
@@ -18469,10 +18469,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce874")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d47")
 		)
 		(instances
 			(project "mega_videl"
@@ -18779,10 +18779,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce875")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d48")
 		)
 		(instances
 			(project "mega_videl"
@@ -19063,10 +19063,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce876")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d49")
 		)
 		(instances
 			(project "mega_videl"
@@ -19578,10 +19578,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce877")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d4a")
 		)
 		(instances
 			(project "mega_videl"
@@ -19784,10 +19784,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce878")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d4b")
 		)
 		(instances
 			(project "mega_videl"
@@ -20352,10 +20352,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce879")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d4c")
 		)
 		(instances
 			(project "mega_videl"
@@ -20661,10 +20661,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce865")
+			(uuid "e9ff08e3-4f28-4338-8ef1-ff7768dce87a")
 		)
 		(pin "1"
-			(uuid "5a14728b-4996-432a-b4d3-1717b2828d38")
+			(uuid "5a14728b-4996-432a-b4d3-1717b2828d4d")
 		)
 		(instances
 			(project "mega_videl"
