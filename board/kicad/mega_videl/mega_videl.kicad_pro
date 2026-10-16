@@ -1059,7 +1059,7 @@
             "delay": 5799600,
             "diff_pair_gap": 0,
             "signal_layer": "B.Cu",
-            "top_reference_layer": "In6.Cu",
+            "top_reference_layer": "In8.Cu",
             "width": 181610
           },
           {
